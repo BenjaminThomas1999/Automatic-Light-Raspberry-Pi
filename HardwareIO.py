@@ -54,10 +54,10 @@ def coolDownFunction():
 def restartCoolDownTimer():
 	global cool_down_timer
 	cool_down_timer.cancel()
-	cool_down_timer = Timer(8, coolDownFunction)
+	cool_down_timer = Timer(5, coolDownFunction)
 	cool_down_timer.start()
 	
-cool_down_timer = Timer(8, coolDownFunction)
+cool_down_timer = Timer(5, coolDownFunction)
 
 
 
